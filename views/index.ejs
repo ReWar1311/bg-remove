@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG-Remove</title>
+</head>
+<body>
+
+    <form action="/submit" method="POST">
+        <input type="file" id="img" name="img">
+        <input type="submit" value="Generate Name">
+      </form>
+      <% if(locals.imgnew){%>
+        <div class="container">
+           <img src="<%=imgnew%>" alt="unable to load">
+           <img src="teste/cristian.jpg" alt="unable to load">
+        </div>
+        <%}%>
+
+    
+</body>
+</html>
